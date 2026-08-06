@@ -50,3 +50,9 @@ body {
   height: 500px;
   border-radius: 1rem;
 }
+
+@media (max-width: 1024px) {
+  .boeken-gallery img {
+    height: 250px;
+  }
+}

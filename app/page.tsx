@@ -5,7 +5,7 @@ export default function Home() {
     <>
     {/* Navbar */}
     <div className="bg-white shadow-md">
-      <nav className="flex items-center gap-8 mx-40 p-4">
+      <nav className="flex items-center justify-between lg:justify-start gap-8 lg:mx-40 p-4">
         <div className="flex items-center space-x-4">
           <Image
             src="/logo.png"
@@ -29,7 +29,7 @@ export default function Home() {
     {/* End of Navbar */}
     {/* Main content */}
     <main className="flex flex-col items-center justify-center min-h-screen py-2 hero">
-      <div className="bg-white shadow-md rounded-lg px-8 py-16 text-center">
+      <div className="bg-white shadow-md rounded-lg text-center mx-2 lg:mx-0 px-8 py-16">
         <h1 className="text-6xl font-bold text-gray-800">Welcome to <span className="text-emerald-500">Carbon Network</span></h1>
         <p className="mt-4 text-xl text-gray-600">
           A Minecraft Server Network that focuses on providing a fun and engaging experience for players.

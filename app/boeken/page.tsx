@@ -5,7 +5,7 @@ export default function Librarian() {
     <>
     {/* Navbar */}
     <div className="bg-white shadow-md">
-      <nav className="flex items-center gap-8 mx-40 p-4">
+      <nav className="flex items-center justify-between lg:justify-start gap-8 lg:mx-40 p-4">
         <div className="flex items-center space-x-4">
           <Image
             src="/logo.png"
@@ -26,23 +26,21 @@ export default function Librarian() {
     {/* End of Navbar */}
     {/* Main content */}
     <main className="flex flex-col items-center justify-center min-h-screen py-2 hero">
-        <div className="bg-white shadow-md rounded-lg px-8 py-16 text-center">
-            <div className="flex items-center justify-center gap-4 boeken-gallery">
-                <Image
-                  src="/boek_2.png"
-                  alt="First Floor Layout"
-                  width={800}
-                  height={800}
-                  className=""
-                />
-                <Image
-                  src="/boek_1.png"
-                  alt="Second Floor Layout"
-                  width={800}
-                  height={800}
-                  className=""
-                />
-            </div>
+        <div className="flex flex-col lg:flex-row items-center justify-center gap-4 bg-white text-center shadow-md rounded-lg mx-2 lg:mx-0 px-4 lg:px-8 py-8 lg:py-16 boeken-gallery">
+            <Image
+              src="/boek_2.png"
+              alt="First Floor Layout"
+              width={800}
+              height={800}
+              className=""
+            />
+            <Image
+              src="/boek_1.png"
+              alt="Second Floor Layout"
+              width={800}
+              height={800}
+              className=""
+            />
         </div>
     </main>
     {/* End of main content */}
