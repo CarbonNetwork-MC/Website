@@ -48,6 +48,7 @@ body {
 /* Hidden: Librarian Game */
 .boeken-gallery img {
   height: 500px;
+  width: auto;
   border-radius: 1rem;
 }
 
