@@ -62,9 +62,8 @@ export default function Breadcrumbs({
       </ol>
 
       {/* IP */}
-      <div className="text-sm font-medium text-gray-500">
-        <span className="text-gray-400">IP: </span>
-        <span className="text-emerald-500">play.carbonnetwork.net</span>
+      <div className="bg-emerald-400 text-black text-sm font-medium px-4 py-2 rounded-2xl">
+        <span>play.carbonnetwork.net</span>
       </div>
     </nav>
   );
