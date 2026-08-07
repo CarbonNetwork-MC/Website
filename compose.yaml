@@ -1,6 +1,6 @@
 services:
   app:
-    container_name: my-nextjs-app
+    container_name: main-website
     build:
       context: .
       dockerfile: Dockerfile

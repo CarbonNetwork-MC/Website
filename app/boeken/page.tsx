@@ -1,32 +1,28 @@
 import Image from "next/image";
 
+import Breadcrumbs from "@/app/src/components/Navigation/Breadcrumbs";
+import MainContainer from "@/app/src/components/Containers/Main";
+
 export default function Librarian() {
   return (
     <>
-    {/* Navbar */}
-    <div className="bg-white shadow-md">
-      <nav className="flex items-center justify-between lg:justify-start gap-8 lg:mx-40 p-4">
-        <div className="flex items-center space-x-4">
-          <Image
-            src="/logo.png"
-            alt="Logo"
-            width={40}
-            height={40}
-            className="rounded-full"
-          />
-          <span className="font-bold text-lg text-emerald-500">Carbon Network</span>
-        </div>
-        <div className="space-x-4">
-          <a href="/" className="text-gray-600 hover:text-blue-700">
-            Home
-          </a>
-        </div>
-      </nav>
-    </div>
-    {/* End of Navbar */}
+    <Breadcrumbs
+      items={[
+        {
+          icon: "fi fi-rs-house-chimney",
+          url: "/",
+          label: "",
+        },
+        {
+          url: "/boeken",
+          label: "Librarian (hidden)",
+        },
+      ]}
+    />
+
     {/* Main content */}
-    <main className="flex flex-col items-center justify-center min-h-screen py-2 hero">
-        <div className="flex flex-col lg:flex-row items-center justify-center gap-4 bg-white text-center shadow-md rounded-lg mx-2 lg:mx-0 px-4 lg:px-8 py-8 lg:py-16 boeken-gallery">
+    <MainContainer>
+        <div className="flex flex-col lg:flex-row items-center justify-center gap-4 text-center boeken-gallery">
             <Image
               src="/boek_2.png"
               alt="First Floor Layout"
@@ -42,15 +38,8 @@ export default function Librarian() {
               className=""
             />
         </div>
-    </main>
+    </MainContainer>
     {/* End of main content */}
-    {/* Footer */}
-    <footer className="bg-white shadow-md">
-      <div className="flex items-center justify-center p-4">
-        <span className="text-gray-600">&copy; 2024-{new Date().getFullYear()} Carbon Network. All rights reserved.</span>
-      </div>
-    </footer>
-    {/* End of footer */}
     {/* End of page */}
     </>
   );

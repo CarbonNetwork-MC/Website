@@ -1,0 +1,107 @@
+@font-face {
+    font-family: 'Monocraft-Black-Italic';
+    src: url('../font/Monocraft-Black-Italic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Monocraft-Black';
+    src: url('../font/Monocraft-Black.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Monocraft-Bold-Italic';
+    src: url('../font/Monocraft-Bold-Italic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Monocraft-Bold';
+    src: url('../font/Monocraft-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Monocraft-ExtraLight-Italic';
+    src: url('../font/Monocraft-ExtraLight-Italic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Monocraft-ExtraLight';
+    src: url('../font/Monocraft-ExtraLight.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Monocraft-Italic';
+    src: url('../font/Monocraft-Italic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Monocraft-Light-Italic';
+    src: url('../font/Monocraft-Light-Italic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Monocraft-Light';
+    src: url('../font/Monocraft-Light.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Monocraft-SemiBold-Italic';
+    src: url('../font/Monocraft-SemiBold-Italic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Monocraft-SemiBold';
+    src: url('../font/Monocraft-SemiBold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Monocraft-Regular';
+    src: url('../font/Monocraft.ttf') format('truetype');
+}
+
+.font-monocraft-black-italic {
+    font-family: 'Monocraft-Black-Italic', monospace;
+}
+
+.font-monocraft-black {
+    font-family: 'Monocraft-Black', monospace;
+}
+
+.font-monocraft-bold-italic {
+    font-family: 'Monocraft-Bold-Italic', monospace;
+}
+
+.font-monocraft-bold {
+    font-family: 'Monocraft-Bold', monospace;
+}
+
+.font-monocraft-extra-light-italic {
+    font-family: 'Monocraft-ExtraLight-Italic', monospace;
+}
+
+.font-monocraft-extra-light {
+    font-family: 'Monocraft-ExtraLight', monospace;
+}
+
+.font-monocraft-italic {
+    font-family: 'Monocraft-Italic', monospace;
+}
+
+.font-monocraft-light-italic {
+    font-family: 'Monocraft-Light-Italic', monospace;
+}
+
+.font-monocraft-light {
+    font-family: 'Monocraft-Light', monospace;
+}
+
+.font-monocraft-semi-bold-italic {
+    font-family: 'Monocraft-SemiBold-Italic', monospace;
+}
+
+.font-monocraft-semi-bold {
+    font-family: 'Monocraft-SemiBold', monospace;
+}
+
+.font-monocraft-regular {
+    font-family: 'Monocraft-Regular', monospace;
+}
