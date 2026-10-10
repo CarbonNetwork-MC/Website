@@ -38,6 +38,23 @@ export default function Librarian() {
               className=""
             />
         </div>
+
+        <div className="flex flex-col lg:flex-row items-center justify-center gap-4 text-center boeken-gallery">
+            <Image
+              src="/cellar_keeper_1.png"
+              alt="First Floor Layout"
+              width={800}
+              height={800}
+              className=""
+            />
+            <Image
+              src="/cellar_keeper_2.png"
+              alt="Second Floor Layout"
+              width={800}
+              height={800}
+              className=""
+            />
+        </div>
     </MainContainer>
     {/* End of main content */}
     {/* End of page */}
